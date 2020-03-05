@@ -13,15 +13,19 @@
     <main>
       <router-view />
     </main>
-    <footer></footer>
+    <footer>
+      <Shopcar/>
+    </footer>
   </div>
 </template>
 
 <script>
 import Header from "../views/components/Homecomponent/Header";
+import Shopcar from "../views/components/Homecomponent/Shopcar";
 export default {
   components: {
-    Header
+    Header,
+    Shopcar
   }
 };
 </script>
@@ -64,7 +68,6 @@ $concolor: #42b983;
   footer {
     height: 8%;
     width: 100%;
-    background: $concolor;
   }
 }
 </style>

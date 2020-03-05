@@ -33,7 +33,7 @@
                 </h4>
                 <div class="changenum">
                   <button @click="changeNum(-1 ,child.name)"></button>
-                  <span >{{child.num}}</span>
+                  <span  >{{child.num}}</span>
                   <button @click="changeNum(1 ,child.name)"></button>
                 </div>
               </div>
